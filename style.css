@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.container{
+    position: relative;
+    width: 60%;
+    margin: auto ;
+    overflow: hidden;
+}
+
+.container-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+img{
+    height: 500px;
+    width: 100%;
+}
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    cursor: pointer;
+}
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    cursor: pointer;
+}
+h1{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
